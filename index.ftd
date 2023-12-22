@@ -1,0 +1,43 @@
+-- import: fastn-community.github.io/design-system as ds
+
+-- ds.page:
+
+-- header:
+
+
+
+-- end: ds.page
+
+
+
+-- component header:
+
+-- ds.section-row:
+inset: $ds.spaces.inset-tall.zero-small
+outer-background.solid: $ds.colors.background.step-1
+spacing: $ds.spaces.horizontal-gap.extra-large
+
+-- ftd.image:
+src: assests/fifthtry-logo.png
+width.fixed.percent: 15
+
+-- ds.row:
+width: hug-content
+
+-- ds.header.link: About
+link: /
+
+-- ds.header.link: Team
+link: https://www.fifthtry.com/team/
+
+-- ds.header.link: Career
+link: /
+
+-- ds.header.link: Handbook
+link: https://www.fifthtry.com/handbook/
+
+-- end: ds.row
+
+-- end: ds.section-row
+
+-- end: header

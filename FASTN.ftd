@@ -1,1 +1,5 @@
 -- import: fastn
+
+-- fastn.package: fifthtry-home
+
+-- fastn.dependency: fastn-community.github.io/design-system
