@@ -22,6 +22,7 @@
 -- ds.section-row:
 flush: wide
 inset: $ds.spaces.inset-tall.zero-medium
+spacing: $ds.spaces.horizontal-gap.space-between
 
 -- ds.row:
 align-content: left
@@ -41,6 +42,7 @@ width.fixed.percent: 25
 width: fill-container
 
 -- ds.copyright-text:
+/ align: right
 
 2023 FifthTry. All rights reserved
 
@@ -85,6 +87,7 @@ icon-position: at-end
 src: assets/homepage.png
 shadow: $s
 width.fixed.percent: 50
+border-radius.px: 7  ;; (need border only on one corner- top left)
 
 -- end: ds.row
 
@@ -135,10 +138,18 @@ link: https://www.fifthtry.com/handbook/
 
 
 
--- ftd.shadow s:
-color: #EF8435
+/-- ftd.shadow s:
+/color: #EF8435
 / blur.px: 8
 /spread.px: 4
-x-offset.px: -10
-y-offset.px: -10
+/ x-offset.px: -10
+/ y-offset.px: -10
 
+-- ftd.shadow s:
+color: #EF8435
+blur.px: 1
+spread.px: 6
+x-offset.px: -6 
+y-offset.px: -6
+
+/ border-top: $ds.borders.thin
